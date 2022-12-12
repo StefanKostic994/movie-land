@@ -1,0 +1,22 @@
+server:
+  error:
+    include-message: always
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+  datasource:
+    password: root
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/movie_land
+  main:
+    allow-circular-references: 'true'
+
+
+

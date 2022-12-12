@@ -1,0 +1,8 @@
+package com.movieland.enums;
+
+public enum GenreName {
+
+    ACTION, ANIMATED, ADVENTURE, BIOGRAPHY, COMEDY, CRIMEA, DOCUMENTARY, DRAMA, FAMILY, FANTASY, HORROR, HISTORY, MYSTERY, THRILLER,
+    WAR
+
+}
